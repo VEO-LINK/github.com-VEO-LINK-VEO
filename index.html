@@ -2,40 +2,66 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>VEO INTERNATIONAL MEGA-MALL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VEO INTERNATIONAL</title>
     <style>
-        body { background-color: #002147; color: white; font-family: Arial, sans-serif; text-align: center; margin: 0; padding: 0; }
-        header { background-color: #FFD700; color: #002147; padding: 20px; font-size: 24px; font-weight: bold; }
-        .hero-screen { height: 300px; background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://via.placeholder.com/1200x400'); background-size: cover; display: flex; align-items: center; justify-content: center; border-bottom: 3px solid #FFD700; }
-        .section-card { border: 2px solid #FFD700; margin: 20px; padding: 20px; border-radius: 15px; background-color: rgba(255,255,255,0.05); }
-        .btn-payment { background-color: #FFD700; color: #002147; padding: 15px 30px; border: none; border-radius: 10px; font-weight: bold; cursor: pointer; text-decoration: none; display: inline-block; margin: 10px; }
-        footer { margin-top: 50px; padding: 20px; font-size: 14px; opacity: 0.7; }
+        body { background-color: #ffffff; color: #333; font-family: 'Arial', sans-serif; margin: 0; padding: 0; }
+        header { background-color: #f9f9f9; padding: 20px; text-align: center; border-bottom: 3px solid #eee; }
+        .container { padding: 25px; }
+        .section-title { color: #880044; font-size: 32px; font-weight: bold; margin-bottom: 20px; }
+        .mall-section { border: 3px solid #eee; border-radius: 20px; padding: 30px; margin-bottom: 25px; background-color: #fcfcfc; }
+        .mall-section h3 { color: #880044; font-size: 32px; margin-bottom: 15px; }
+        .mall-section p { font-size: 22px; color: #555; }
+        
+        /* كبسات الدفع باللون الزهري الداكن */
+        .btn-payment { background-color: #880044; color: white; padding: 25px; border-radius: 15px; font-size: 26px; text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 20px; font-weight: bold; }
+        .btn-payment img { width: 50px; height: 50px; margin-left: 15px; border-radius: 5px; }
+        
+        footer { text-align: center; padding: 40px; font-size: 20px; background: #eee; border-top: 2px solid #ddd; margin-top: 40px; }
+        
+        /* ستايل لوجو VEO في المنتصف */
+        .mall-logo { display: block; width: 150px; height: 150px; margin: 20px auto; border-radius: 50%; border: 5px solid #880044; color: #880044; font-size: 60px; font-weight: bold; text-align: center; line-height: 150px; }
     </style>
 </head>
 <body>
 
-    <header>VEO-LINK INTERNATIONAL MEGA-MALL</header>
+<header>VEO GLOBAL SYSTEMS</header>
 
-    <div class="hero-screen">
-        <h1>شاشة العرض الذكية (VEO Smart Screen)</h1>
+<div class="container">
+    <div class="mall-section">
+        <h3>🛒 السوبر ماركت الذكي</h3>
+        <p>تسوق بأمان مع ضمان الجودة العالمية ساعة بساعة.</p>
+        <a href="tel:03799920" class="btn-payment">دخول المتجر</a>
     </div>
 
-    <div class="section-card">
-        <h2>🛍️ الأجنحة المتاحة</h2>
-        <p>سوبر ماركت ذكي | برمجة روبوتات | حماية السمعة</p>
+    <div class="mall-section">
+        <h3>💻 البرمجة والحماية</h3>
+        <p>روبوتات ذكية، أنظمة حماية، وتصميم واجهات احترافية.</p>
+        <a href="tel:03799920" class="btn-payment">طلب استشارة هندسية</a>
     </div>
 
-    <div class="section-card">
-        <h2>💳 بوابة الدفع الآمنة (Secure Payment)</h2>
-        <p>اختر وسيلة الدفع المناسبة لك:</p>
-        <a href="tel:03799920" class="btn-payment">الدفع عبر OMT Pay</a>
-        <a href="tel:03799920" class="btn-payment">الدفع عبر Wish Money</a>
-        <a href="tel:03799920" class="btn-payment">الدفع عبر C-Wallet</a>
+    <div class="payment-box">
+        <h3 class="section-title">💳 بوابات الدفع (03799920)</h3>
+        
+        <a href="tel:03799920" class="btn-payment">
+            <img src="https://example.com/omt_logo.png" alt="OMT"> تحويل عبر OMT Pay
+        </a>
+        
+        <a href="tel:03799920" class="btn-payment">
+            <img src="https://example.com/wish_logo.png" alt="Wish"> تحويل عبر Wish Money
+        </a>
+        
+        <a href="tel:03799920" class="btn-payment">
+            <img src="https://example.com/cwallet_logo.png" alt="C-Wallet"> محفظة C-Wallet
+        </a>
     </div>
 
-    <footer>
-        جميع الحقوق محفوظة لشركة VEO | تواصل معنا: 03799920 [cite: 2026-01-23]
-    </footer>
+    <div class="mall-logo">VEO</div>
+</div>
+
+<footer>
+    جميع الحقوق محفوظة لشركة VEO | تواصل معنا: 03799920 [cite: 2026-01-23]
+</footer>
 
 </body>
 </html>
